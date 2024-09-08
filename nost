@@ -1,0 +1,9 @@
+a = float(input())
+b = float(input())
+
+if a % b:
+  print("не кратно")
+elif a // b:
+  print("кратно")
+else:
+  print("ошибка")
